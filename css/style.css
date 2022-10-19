@@ -1,0 +1,1007 @@
+.wrapper{
+	min-height: 100%;
+	position: relative;
+}
+
+body{
+	font-family: "Roboto";
+	background-color: #333;
+	font-weight: 500;
+	font-size: 24px;
+}
+
+.wall__background{
+	position: absolute;	
+}
+
+
+/* ================================================================== door-block ======================================= */
+
+.door-block__image{
+	position: absolute;
+}
+
+/* ----------------------- door-block__room-1-------------------------- */
+.door-block__room--1 .door-block__image--left {
+	left: 1552px;
+	width: 642px;
+	perspective: 1910px;
+	perspective-origin: 92% 50%;
+}
+.door-block__room--1 span{
+	position: absolute;
+	left: 1940px;
+	top: 150px;
+	width: 4px;
+	height: 700px;
+	background-color: #666;
+	box-shadow: 1px 0px 140px 150px rgba(0, 0, 0, 1);
+}
+.door-block__room--1 .door-block__image--left img{
+	width: 100%;
+	height: 100%;
+	transform: rotateY(-72deg);
+}
+.door-block__room--1 .door-block__image--left-half {
+	left: 1552px;
+	width: 642px;
+	perspective: 1910px;
+	perspective-origin: 92% 50%;
+	z-index: 6;
+}
+.door-block__room--1 .door-block__image--left-half img{
+	width: 100%;
+	height: 100%;
+	transform: rotateY(-72deg);
+}
+
+.door-block__room--1 .door-block__image--right {
+	left: 1664px;
+	width: 647px;
+	perspective: 2050px;
+	perspective-origin: 80% 55%;
+}
+.door-block__room--1 .door-block__image--right img{
+	width: 100%;
+	height: 100%;
+	transform: rotateY(-92deg);
+}
+.door-block__room--1 .door-block__image--right-half {
+	left: 1664px;
+	width: 647px;
+	perspective: 2050px;
+	perspective-origin: 80% 55%;
+	z-index: 6;
+}
+.door-block__room--1 .door-block__image--right-half img{
+	width: 100%;
+	height: 100%;
+	transform: rotateY(-92deg);
+}
+
+/* ----------------------- door-block__room-2------------------------------------------ */
+.door-block__room--2 .door-block__image--left {
+	left: 3486px;
+	width: 647px;
+	perspective: 1980px;
+	perspective-origin: 90% 56%;
+}
+.door-block__room--2 span{
+	position: absolute;
+	left: 3880px;
+	top: 150px;
+	width: 4px;
+	height: 700px;
+	background-color: #666;
+	box-shadow: 1px 0px 140px 150px rgba(0, 0, 0, 1);
+}
+.door-block__room--2 .door-block__image--left img{
+	width: 100%;
+	height: 100%;
+	transform: rotateY(-72deg);
+}
+.door-block__room--2 .door-block__image--left-half {
+	left: 3486px;
+	width: 647px;
+	perspective: 1980px;
+	perspective-origin: 90% 56%;
+	z-index: 6;
+}
+.door-block__room--2 .door-block__image--left-half img{
+	width: 100%;
+	height: 100%;
+	transform: rotateY(-72deg);
+}
+
+.door-block__room--2 .door-block__image--right {
+	left: 3606px;
+	width: 647px;
+	perspective: 2050px;
+	perspective-origin: 80% 55%;
+}
+.door-block__room--2 .door-block__image--right img{
+	width: 100%;
+	height: 100%;
+	transform: rotateY(-92deg);
+}
+.door-block__room--2 .door-block__image--right-half {
+	left: 3606px;
+	width: 647px;
+	perspective: 2050px;
+	perspective-origin: 80% 55%;
+	z-index: 6;
+}
+.door-block__room--2 .door-block__image--right-half img{
+	width: 100%;
+	height: 100%;
+	transform: rotateY(-92deg);
+}
+
+/* ----------------------- door-block__room-3----------------------------------- */
+.door-block__room--3 .door-block__image--left {
+	left: 5432px;
+	width: 647px;
+	perspective: 1980px;
+	perspective-origin: 90% 56%;
+}
+.door-block__room--3 span{
+	position: absolute;
+	left: 5820px;
+	top: 150px;
+	width: 4px;
+	height: 700px;
+	background-color: #666;
+	box-shadow: 1px 0px 140px 150px rgba(0, 0, 0, 1);
+}
+.door-block__room--3 .door-block__image--left img{
+	width: 100%;
+	height: 100%;
+	transform: rotateY(-72deg);
+}
+.door-block__room--3 .door-block__image--left-half {
+	left: 5432px;
+	width: 647px;
+	perspective: 1980px;
+	perspective-origin: 90% 56%;
+	z-index: 6;
+}
+.door-block__room--3 .door-block__image--left-half img{
+	width: 100%;
+	height: 100%;
+	transform: rotateY(-72deg);
+}
+
+.door-block__room--3 .door-block__image--right {
+	left: 5562px;
+	width: 627px;
+	perspective: 1710px;
+	perspective-origin: 80% 48%;
+}
+.door-block__room--3 .door-block__image--right img{
+	width: 100%;
+	height: 100%;
+	transform: rotateY(-92deg);
+}
+.door-block__room--3 .door-block__image--right-half {
+	left: 5562px;
+	width: 627px;
+	perspective: 1710px;
+	perspective-origin: 80% 48%;
+	z-index: 6;
+}
+.door-block__room--3 .door-block__image--right-half img{
+	width: 100%;
+	height: 100%;
+	transform: rotateY(-92deg);
+}
+
+/* ----------------------- door-block__room-4---------------------------------------- */
+.door-block__room--4 .door-block__image--left {
+	left: 7369px;
+	width: 630px;
+	perspective: 1610px;
+	perspective-origin: 80% 48%;
+}
+.door-block__room--4 span{
+	position: absolute;
+	left: 7760px;
+	top: 150px;
+	width: 4px;
+	height: 650px;
+	background-color: #666;
+	box-shadow: 1px 0px 40px 100px rgba(0, 0, 0, 1);
+}
+.door-block__room--4 .door-block__image--left img{
+	width: 100%;
+	height: 100%;
+	transform: rotateY(-72deg);
+}
+.door-block__room--4 .door-block__image--left-half {
+	left: 7369px;
+	width: 630px;
+	perspective: 1610px;
+	perspective-origin: 80% 48%;
+	z-index: 6;
+}
+.door-block__room--4 .door-block__image--left-half img{
+	width: 100%;
+	height: 100%;
+	transform: rotateY(-72deg);
+}
+
+.door-block__room--4 .door-block__image--right {
+	left: 7485px;
+	width: 648px;
+	perspective: 2080px;
+	perspective-origin: 80% 54%;
+}
+.door-block__room--4 .door-block__image--right img{
+	width: 100%;
+	height: 100%;
+	transform: rotateY(-92deg);
+}
+.door-block__room--4 .door-block__image--right-half {
+	left: 7485px;
+	width: 648px;
+	perspective: 2080px;
+	perspective-origin: 80% 54%;
+	z-index: 6;
+}
+.door-block__room--4 .door-block__image--right-half img{
+	width: 100%;
+	height: 100%;
+	transform: rotateY(-92deg);
+}
+/* ========================================================== picture-room-1 ======================================== */
+.wall__picture--room-1 {
+	position: relative;
+}
+
+.wall__image-bender{
+	position: fixed;
+	left: 100px;
+	top: 285px;
+	max-width: 600px;
+	z-index: 5;
+}
+
+.wall__image-ded{
+	position: absolute;
+	left: 1000px;
+	top: 150px;
+	max-width: 600px;
+}
+.wall__image-ded::before{
+	content: "Собрал свою первую тачку.";
+	position: absolute;
+	width: 500px;
+	font-weight: 700;
+	font-size: 24px;
+	color: black;
+	left: -10px;
+	top: 25px;
+	max-width: 600px;
+	z-index: 2;
+}
+.wall__image-ded::after{
+	content: url(../img/picture/bender-rules.png);
+	position: absolute;	
+	padding: 20px;
+	font-weight: 700;
+	font-size: 24px;
+	left: -550px;
+	top: 70px;
+	z-index: 2;
+}
+
+.wall__image-ded img:first-child{
+	position: absolute;
+	width: 600px;
+	transform: scale(1.3, 1);
+	box-shadow: 6px 2px 7px 3px rgba(0, 0, 0, 1);
+	z-index: 1;
+}
+.wall__image-ded img:last-child{
+	position: absolute;
+	width: 600px;
+	top: 70px;
+	transform: scale(0.98, 1);
+}
+
+/* ------------------------------------------------------------- */
+
+.wall__image-children {
+	position: absolute;
+	left: 1150px;
+	top: 400px;
+	z-index: 1;
+}
+
+.wall__image-children img{
+	max-width: 350px;
+}
+.wall__image-children span:nth-child(2){
+	position: absolute;
+	width: 240px;
+	font-size: 20px;
+	left: -200px;
+	top: 60px;
+	padding: 5px 0 10px 10px ;
+	z-index: 6;
+	border: 1px solid black;
+	background-color: rgb(255, 255, 255);
+	border-radius: 10% 50% 100% 10% / 70% 50% 100% 70%;
+}
+.wall__image-children span:nth-child(3){
+	position: absolute;
+	width: 340px;
+	font-size: 20px;
+	left: 320px;
+	top: 40px;
+	padding: 5px 0 10px 90px ;
+	z-index: 6;
+	border: 1px solid black;
+	background-color: rgb(255, 255, 255);
+	border-radius: 100% 10% 10% 100% / 70% 70% 70% 70%;
+}
+.wall__image-children span:nth-child(4){
+	position: absolute;
+	width: 340px;
+	font-size: 20px;
+	left: 220px;
+	top: 120px;
+	padding: 7px 0 10px 90px ;
+	z-index: 6;
+	border: 1px solid black;
+	background-color: rgb(255, 255, 255);
+	border-radius: 100% 10% 10% 100% / 70% 70% 70% 70%;
+}
+
+/* ---------------------------------------------------------- */
+
+.wall__image-picture{
+	position: relative;
+	left: 1150px;
+	top: 695px;
+	perspective: 100px;
+	perspective-origin: 3.5% 10%;
+	z-index: 7;
+}
+.wall__image-picture img:nth-child(1){
+	position: absolute;
+	left: 100px;
+	top: 34px;
+	max-width: 330px;
+	transform: skew(2deg) rotateX(-2deg);
+	z-index: 9;
+}
+.wall__image-picture img:nth-child(2){
+	position: absolute;
+	max-width: 300px;
+	top: 68px;
+	left: 230px;
+	transform: rotateX(-2deg) skew(3deg);
+	z-index: 10;
+}
+.wall__image-picture img:nth-child(3){
+	position: absolute;
+	top: -12px;
+	left: 140px;
+	max-width: 350px;
+	transform: skew(2deg) rotateX(-2deg);
+	z-index: 7;
+}
+.wall__image-picture img:nth-child(4){
+	position: absolute;
+	left: 280px;
+	max-width: 350px;
+	top: 0px;
+	transform-origin:bottom right;
+	transform: rotate(3deg) skew(20deg) rotateX(-5deg);
+	z-index: 6;
+}
+.wall__image-picture img:nth-child(5){
+	position: absolute;
+	max-width: 250px;
+	left: -50px;
+	z-index: 3;
+	transform-origin:bottom left;
+	transform: skew(-2deg) rotateX(-3deg) rotate(-4deg);
+	z-index: 8;
+}
+.wall__image-picture img:nth-child(6){
+	position: absolute;
+	top: 80px;
+	max-width: 200px;
+	left: 50px;
+	transform: skew(1deg) rotateX(-4deg);
+	z-index: 8;
+}
+
+/* ========================================================== picture-room-2 ======================================== */
+.wall__picture--room-2{
+	position: relative;
+	left: 1940px;
+}
+
+.wall__image-gogh {
+	position: absolute;
+	left: 300px;
+	top: 150px;
+	max-width: 100px;
+}
+.wall__image-gogh img:first-child{
+	position: absolute;
+	top: 4px;
+	left: -104px;
+	width: 505px;
+	box-shadow: 15px 0px 17px 11px rgba(0, 0, 0, 0.8);
+	transform: rotate(90deg) scale(0.97, 1.13);
+	z-index: 2;
+}
+.wall__image-gogh img:last-child{
+	position: absolute;
+	width: 300px;
+	z-index: 1;
+}
+
+
+.wall__image-picasso {
+	position: absolute;
+	left: 850px;
+	top: 150px;
+}
+.wall__image-picasso img:first-child{
+	position: absolute;
+	top: -9px;
+	left: -128px;
+	width: 530px;
+	box-shadow: 15px 0px 17px 11px rgba(0, 0, 0, 0.8);
+	transform: rotate(90deg) scale(0.80, 1);
+	z-index: 3;
+}
+
+.wall__image-picasso img:nth-child(2){
+	position: absolute;
+	width: 270px;
+	transform-origin:bottom left;
+	box-shadow: 40px -5px 40px 10px rgba(0, 0, 0, 0.8);
+	transform: rotate(106deg);
+	z-index: 2;
+}
+.wall__image-picasso img:nth-child(3){
+	position: absolute;
+	left: 110px;
+	top: -10px;
+	width: 170px;
+	transform-origin:bottom left;
+	transform: rotate(-3deg);
+	z-index: 1;
+}
+.wall__image-shagal {
+	position: absolute;
+	left: 1300px;
+	top: 150px;
+	perspective: 500px;
+}
+.wall__image-shagal img{
+	position: absolute;
+	width: 350px;
+	transform: rotate(-10deg) rotate3d(1.1, 1, 1, -35deg);
+	box-shadow: 60px 48px 56px 33px rgb(0, 0, 0);
+}
+.wall__image-shagal::before{
+	content: "";
+	position: absolute;
+	left: 98px;
+	top: 294px;
+	height: 10px;
+	width: 10px;
+	border-radius: 50%;
+	background-color: black;
+	box-shadow: 0px 0px 1px 2px rgba(255, 255, 255, 0.6) inset;
+	z-index: 2;
+}
+.wall__image-shagal::after{
+	content: "";
+	position: absolute;
+	left: 100px;
+	top: -00px;
+	height: 3px;
+	width: 100px;
+	border-radius: 50%;
+	background-color: rgb(255, 255, 255);
+	transform: scale(1, 1) rotate(80deg);
+	box-shadow: 0px 0px 1px 2px rgba(0, 0, 0, 0.2) inset;
+	z-index: -1;
+}
+
+/* ========================================================== picture-room-3 ======================================== */
+.wall__picture--room-3{
+	position: relative;
+	left: 3880px;
+}
+
+
+.wall__image-cat-1 {
+	position: absolute;
+	left: 650px;
+	top: 160px;
+	max-width: 100px;
+}
+.wall__image-cat-1 img:first-child{
+	position: absolute;
+	top: 3px;
+	left: -125px;
+	width: 300px;
+	transform-origin:top right;
+	transform: rotate(-58deg);
+	z-index: 1;
+	box-shadow: -1px 1px 10px 1px rgba(0, 0, 0, 0.8);
+}
+
+
+/* ------------------------------------ */
+.wall__image-cat-2 {
+	position: absolute;
+	left: 120px;
+	top: 220px;
+	perspective: 500px;
+	z-index: 3;
+}
+.wall__image-cat-2 img{
+	position: absolute;
+	width: 350px;
+	transform: rotate(-15deg) rotate3d(10, -5, -6, 45deg);
+	box-shadow: -35px 25px 40px 30px rgba(0, 0, 0, 0.7);
+}
+.wall__image-cat-2::before{
+	content: "";
+	position: absolute;
+	left: 210px;
+	top: -40px;
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	background-color: rgb(0, 0, 0);
+	box-shadow: 0px 0px 2px 4px rgba(255, 255, 255, 0.6) inset;
+	z-index: 3;
+}
+/* ------------------------------------ */
+.wall__image-cat-3 {
+	position: absolute;
+	left: 1350px;
+	top: 150px;
+	perspective: 100px;
+	z-index: 2;
+}
+.wall__image-cat-3 img:first-child{
+	position: absolute;
+	width: 354px;
+	transform: skew(2deg) rotateX(-2deg) scale(1, 1);
+	border: 1px solid black;
+	box-shadow: 70px 640px 90px 120px rgba(0, 0, 0, 0.5);
+}
+
+.wall__image-cat-3 img:last-child{
+	position: absolute;
+	top: 110px;
+	left: -50px;
+	width: 450px;
+	transform: skew(2deg) rotateX(-2deg) scale(0.95, 2);
+	box-shadow: 280px 1440px 500px 500px rgba(0, 0, 0, 0.6);
+}
+.wall__image-cat-3::before{
+	content: "";
+	position: absolute;
+	left: 40px;
+	top: -65px;
+	height: 3px;
+	width: 150px;
+	border-radius: 50%;
+	transform: scale(1, 1) rotate(-15deg);
+	box-shadow: 0px 0px 1px 2px rgba(0, 0, 0, 0.9) inset;
+	z-index: -1;
+} 
+.wall__image-cat-3::after{
+	content: "";
+	position: absolute;
+	left: 180px;
+	top: -65px;
+	height: 3px;
+	width: 150px;
+	border-radius: 50%;
+	transform: scale(1, 1) rotate(15deg);
+	box-shadow: 0px 0px 1px 2px rgba(0, 0, 0, 0.9) inset;
+	z-index: -1;
+} 
+
+/* ------------------------------------ */
+.wall__image-cat-4 {
+	position: absolute;
+	left: 500px;
+	top: 450px;
+	max-width: 400px;
+}
+.wall__image-cat-4 img:first-child{
+	position: absolute;
+	top: 6px;
+	left: -140px;
+	width: 430px;
+	box-shadow: 0px 15px 25px 5px rgba(0, 0, 0, 0.9);
+	transform: rotate(0deg) scale(1.05, 1.21);
+	z-index: 2;
+}
+.wall__image-cat-4 img:last-child{
+	position: absolute;
+	top: 8px;
+	left: -125px;
+	width: 400px;
+	transform: rotate(0deg) scale(1, 1);
+	z-index: 1;
+}
+
+/* ------------------------------------ */
+.wall__image-cat-5 {
+	position: relative;
+	left: 1000px;
+	top: 150px;
+	max-width: 300px;
+}
+.wall__image-cat-5 img:first-child{
+	position: absolute;
+	left: -180px;
+	top: 70px;
+	width: 460px;
+	box-shadow: 30px 0px 25px 5px rgba(0, 0, 0, 0.9);
+	transform: rotate(90deg) scale(1, 1.2);
+	z-index: 1;
+}
+.wall__image-cat-5 img:last-child{
+	position: absolute;
+	left: -100px;
+	top: 40px;
+	width: 300px;
+	box-shadow: 30px 10px 55px 5px rgba(0, 0, 0, 0.7);
+	transform: translate(110px, 180px) rotate(55deg) scale(1);
+	/* transform: rotateY(-45deg); */
+}
+
+/* ========================================================== picture-room-4 ======================================== */
+.wall__picture--room-4{
+	position: relative;
+	left: 5820px;
+}
+
+.wall__image-mad-max {
+	position: absolute;
+	left: 490px;
+	top: 2px;
+	perspective: 400px;
+}
+.wall__image-mad-max img:nth-child(1){
+	position: absolute;
+	width: 1050px;
+	top: 65px;
+	left: 63px;
+	box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.7);
+	transform: scale(1.2, 1);
+	z-index: 2;
+}
+.wall__image-mad-max::before{
+	content: "Нашел интересных друзей.";
+	position: absolute;
+	width: 600px;
+	font-weight: 700;
+	font-size: 24px;
+	color: rgb(0, 0, 0);
+	left: 24px;
+	top: 91px;
+	z-index: 3;
+}
+.wall__image-mad-max img:nth-child(2){
+	position: absolute;
+	width: 1100px;
+	left: 35px;
+	top: 110px;
+	transform: scale(1, 0.95);
+	z-index: 1;
+}
+.wall__image-mad-max img:nth-child(3){
+	position: absolute;
+	left: 600px;
+	top: 450px;
+	width: 600px;
+	transform: translate3d(10px, 8px, 0px) scale(0.7, 0.7) rotate(12deg) skewx(20deg) rotate3d(-3,2,5,-2deg);
+	z-index: 3;
+}
+
+/* ========================================================== picture-room-5 ======================================== */
+.wall__picture--room-5{
+	position: relative;
+	left: 7760px;
+}
+
+
+.wall__image-window-1 {
+	position: absolute;
+	left: 300px;
+	top: 100px;
+}
+.wall__image-window-1 img{
+	position: absolute;
+	width: 325px;
+	top: 52px;
+	box-shadow: 0px 4px 5px 5px rgba(0, 0, 0, 0.4);
+	z-index: 2;
+}
+.wall__image-window-1::after{
+	content: "";
+	background: url("../img/picture/window/wc.png") 0 0/ 80px 80px ;
+	position: absolute;
+	left: 130px;
+	top: 240px;
+	width: 80px;
+	height: 80px;
+	z-index: 2;
+}
+.wall__image-shagal::before{
+	content: "";
+	position: absolute;
+	left: 98px;
+	top: 294px;
+
+	border-radius: 50%;
+	background-color: black;
+	box-shadow: 0px 0px 1px 2px rgba(255, 255, 255, 0.6) inset;
+	z-index: 2;
+}
+
+/* ----------------------------------------- */
+.wall__image-window-2 {
+	position: absolute;
+	left: 800px;
+	top: 60px;
+	max-width: 630px;
+	perspective: 400px;
+}
+.wall__image-window-2 img:nth-child(2){
+	position: absolute;
+	width: 500px;
+	top: 52px;
+	left: 50px;
+	box-shadow: 0px 4px 10px 4px rgba(0, 0, 0, 0.2);
+	transform: scale(1, 1);
+	z-index: 2;
+}
+.wall__image-window-2 img:nth-child(1){
+	position: absolute;
+	top: 110px;
+	width: 420px;
+	left: 90px;
+	transform: scale(1, 1);
+	z-index: 1;
+}
+
+/* ----------------------------------------- */
+.wall__image-window-3 {
+	position: absolute;
+	left: 2550px;
+	top: 380px;
+	max-width: 630px;
+	perspective: 400px;
+}
+.wall__image-window-3 img:nth-child(1){
+	position: absolute;
+	width: 900px;
+	transform: scale(1, 1);
+	z-index: 5;
+}
+.wall__image-window-3 img:nth-child(2){
+	position: absolute;
+	width: 158px;
+	left: 597px;
+	top: -204px;
+	border-radius: 50%;
+	z-index: 1;
+}
+.wall__image-window-3 img:nth-child(3){
+	position: absolute;
+	width: 250px;
+	left: 550px;
+	top: -250px;
+	border-radius: 50%;
+	z-index: 2;
+}
+.wall__image-window-3 img:nth-child(4){
+	position: absolute;
+	width: 500px;
+	left: -180px;
+	top: -250px;
+	box-shadow: 0px 4px 10px 4px rgba(0, 0, 0, 0.4);
+	z-index: 4;
+}
+.wall__image-window-3 img:nth-child(5){
+	position: absolute;
+	width: 450px;
+	left: -150px;
+	top: -230px;
+	z-index: 2;
+}
+.wall__image-window-3 img:nth-child(6){
+	position: absolute;
+	width: 220px;
+	left: 100px;
+	top: -230px;
+	transform: rotate(20deg);
+	z-index: 3;
+}
+.wall__image-window-3 img:nth-child(7){
+	position: absolute;
+	width: 50px;
+	left: -60px;
+	top: 320px;
+	z-index: 3;
+}
+.wall__image-window-3 img:nth-child(8){
+	position: absolute;
+	width: 150px;
+	left: -90px;
+	top: 430px;
+	transform: rotate(-30deg);
+	z-index: 3;
+}
+.wall__image-window-3 img:nth-child(9){
+	position: absolute;
+	width: 150px;
+	left: -100px;
+	top: 380px;
+	transform: rotate(-90deg);
+	z-index: 3;
+}
+.wall__image-window-3 img:nth-child(10){
+	position: absolute;
+	width: 100px;
+	left: 170px;
+	top: 490px;
+	transform: rotate(0deg);
+	z-index: 3;
+}
+
+.wall__image-window-3 span{
+	position: absolute;
+	width: 220px;
+	left: -100px;
+	top: 130px;
+	padding: 40px;
+	z-index: 4;
+	border: 1px solid black;
+	background-color: rgb(255, 255, 255);
+	border-radius: 100% 0% 70% 30% / 70% 0% 100% 30%;
+	display: none;
+}
+.wall__image-window-3 img:nth-child(1):hover ~ span{
+	display: block;
+}
+
+.wall__image-window-3 span:nth-last-of-type(1){
+	position: absolute;
+	width: 220px;
+	left: -600px;
+	top: 130px;
+	padding: 10px 20px 20px 30px;
+	z-index: 4;
+	border: 1px solid black;
+	background-color: rgb(255, 255, 255);
+	border-radius: 0% 100% 100% 100% / 0% 100% 100% 100%;
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =============================================================== Исходники ======================================== */
+/* .door-block__image--left {
+	position: absolute;
+	left: 1567px;
+	width: 628px;
+	perspective: 1610px;
+	perspective-origin: 92% 46%;
+}
+.door-block__image--left img{
+	width: 100%;
+	height: 100%;
+	transform: rotateY(-72deg);
+}
+.door-block__image--left-half {
+	position: absolute;
+	left: 1567px;
+	width: 628px;
+	perspective: 1610px;
+	perspective-origin: 92% 46%;
+}
+.door-block__image--left-half img{
+	width: 100%;
+	height: 100%;
+	transform: rotateY(-72deg);
+}
+
+.door-block__image--right {
+	position: absolute;
+	left: 1682px;
+	width: 624px;
+	perspective: 1610px;
+	perspective-origin: 78% 46%;
+}
+.door-block__image--right img{
+	width: 100%;
+	height: 100%;
+	transform: rotateY(-92deg);
+}
+.door-block__image--right-half {
+	position: absolute;
+	left: 1682px;
+	width: 624px;
+	perspective: 1610px;
+	perspective-origin: 78% 46%;
+}
+.door-block__image--right-half img{
+	width: 100%;
+	height: 100%;
+	transform: rotateY(-92deg);
+} */
